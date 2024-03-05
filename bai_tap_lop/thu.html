@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>BTVN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 92%;
+            margin: 0 auto;
+        }
+
+        .list-product {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            list-style: none;
+        }
+
+        .list-product li {
+            border: 2px solid #f1f1f1;
+        }
+
+        .item {
+            padding: 10px 15px 20px;
+            overflow: hidden;
+        }
+
+        .item-img {
+            position: relative;
+            margin-bottom: 10px;
+            display: block;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .item-img img {
+            margin-top: 8px;
+            transition: all 300ms ease-in-out;
+            max-width: 100%;
+        }
+        .price
+        {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .result-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 20px;
+            color: #fff;
+            padding: 2px;
+            background: linear-gradient(to right, #ef3006, #c60004);
+        }
+        .result
+        {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: #fff;
+            padding: 2px;
+            background-color: orange;
+        }
+
+        .result-label img {
+            max-width: 20px;
+            margin-top: -2.5px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .result-label span {
+            color: #fff;
+            display: inline-block;
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+
+        .item-rating {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .icon-star {
+            color: gold; 
+            font-size: 12px; 
+            margin-right: 3px; 
+        }
+
+        .icon-star-dark {
+            color: #444; 
+            font-size: 12px; 
+            margin-right: 3px; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="list-product">
+            <li class="item">
+                <div class="item-img">
+                    <img src="https://cdn.tgdd.vn/Products/Images/522/247517/TimerThumb/ipad-gen-9...0).jpg" alt="">
+                    <p class="result-label">
+                        <img width="20" height="20"
+                            src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn....-1.png"
+                            alt="">
+<span>Giảm giá mạnh</span>
+                    </p>
+                </div>
+                <h3 title="Máy tính bảng iPad WiFi Cellular 128GB">iPad WiFi Cellular 128GB (2018)</h3>
+                <strong class="price">14.490.000₫</strong>
+                <div class="item-rating">
+                    <p>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star-dark fas fa-star"></i>
+                    </p>
+                    <p class="item-rating-total">7 đánh giá</p>
+                </div>
+                <h4>Mua kèm Apple Pencil giảm 500.000đ và 1 K.mãi khác</h4>
+            </li>
+            <li class="item">
+                <div class="item-img">
+                    <img src="https://cdn.tgdd.vn/Products/Images/522/247517/TimerThumb/ipad-gen-9...0).jpg" alt="">
+                </div>
+                <h3 title="Máy tính bảng Samsung Galaxy Tab A 10.5 inch">Samsung Galaxy Tab A 10.5 inch</h3>
+                <strong class="price">9.490.000₫</strong>
+                <div class="item-rating">
+                    <p>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star-dark fas fa-star"></i>
+                    </p>
+                    <p class="item-rating-total">47 đánh giá</p>
+                </div>
+                <h4>Cơ hội trúng 61 xe Wave Alpha khi trả góp Home Credit</h4>
+            </li>
+            <li class="item">
+                <div class="item-img">
+                    <img src="https://cdn.tgdd.vn/Products/Images/522/247517/TimerThumb/ipad-gen-9...0).jpg" alt="">
+                    <p class="result">
+                        <span>Trả góp 0%</span>
+                    </p>
+                </div>
+                <h3 title="Máy tính bảng iPad WiFi 128GB">iPad WiFi 128GB (2018)</h3>
+                <strong class="price">11.490.000₫</strong>
+                <div class="item-rating">
+                    <p>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                    </p>
+                    <p class="item-rating-total">9 đánh giá</p>
+                </div>
+                <h4>Mua kèm Apple Pencil giảm 500.000đ và 1 K.mãi khác</h4>
+            </li>
+            <li class="item">
+                <div class="item-img">
+<img src="https://cdn.tgdd.vn/Products/Images/522/247517/TimerThumb/ipad-gen-9...0).jpg" alt="">
+                    <p class="result">
+                        <span>Trả góp 0%</span>
+                    </p>
+                </div>
+                <h3 title="Máy tính bảng iPad Pro 11 inch WiFi Cellular 64GB">iPad Pro 11 inch WiFi Cellular 64GB (2018)</h3>
+                <strong class="price">25.990.000₫</strong>
+                <h4>Cơ hội trúng 61 xe Wave Alpha khi trả góp Home Credit</h4>
+            </li>
+            <li class="item">
+                <div class="item-img">
+                    <img src="https://cdn.tgdd.vn/Products/Images/522/247517/TimerThumb/ipad-gen-9...0).jpg" alt="">
+                    <p class="result">
+                        <span>Trả góp 0%</span>
+                    </p>
+                </div>
+                <h3 title="Máy tính bảng iPad Pro 11 inch WiFi 256GB">iPad Pro 11 inch WiFi 256GB (2018)</h3>
+                <strong class="price">25.990.000₫</strong>
+                <h4>Cơ hội trúng 61 xe Wave Alpha khi trả góp Home Credit</h4>
+            </li>
+            <li class="item">
+                <div class="item-img">
+                    <img src="https://cdn.tgdd.vn/Products/Images/522/247517/TimerThumb/ipad-gen-9...0).jpg" alt="">
+                    <p class="result">
+                        <span>Trả góp 0%</span>
+                    </p>
+                </div>
+                <h3 title="Máy tính bảng iPad Pro 11 inch WiFi 64GB">iPad Pro 11 inch WiFi 64GB (2018)</h3>
+                <strong class="price">21.990.000₫</strong>
+                <h4>Cơ hội trúng 61 xe Wave Alpha khi trả góp Home Credit</h4>
+            </li>
+            <li class="item">
+                <div class="item-img">
+                    <img src="https://cdn.tgdd.vn/Products/Images/522/247517/TimerThumb/ipad-gen-9...0).jpg" alt="">
+                    <p class="result">
+                        <span>Trả góp 0%</span>
+                    </p>
+                </div>
+                <h3 title="Máy tính bảng iPad Pro 10.5 inch WiFi Cellular 64GB">iPad Pro 10.5 inch WiFi Cellular 64GB (2017)</h3>
+                <strong class="price">19.990.000₫</strong>
+                <div class="item-rating">
+                    <p>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                    </p>
+                    <p class="item-rating-total">5 đánh giá</p>
+                </div>
+                <h4>Mua kèm Apple Pencil giảm 500.000đ và 1 K.mãi khác</h4>
+            </li>
+            <li class="item">
+                <div class="item-img">
+<img src="https://cdn.tgdd.vn/Products/Images/522/247517/TimerThumb/ipad-gen-9...0).jpg" alt="">
+                </div>
+                <h3 title="Máy tính bảng Samsung Galaxy Tab S4 10.5 inch S-Pen">Samsung Galaxy Tab S4 10.5 inch S-Pen</h3>
+                <strong class="price">17.990.000₫</strong>
+                <div class="item-rating">
+                    <p>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                        <i class="icon-star fas fa-star"></i>
+                    </p>
+                    <p class="item-rating-total">6 đánh giá</p>
+                </div>
+                <h4>Cơ hội trúng 61 xe Wave Alpha khi trả góp Home Credit</h4>
+            </li>
+
+        </ul>
+    </div>
+
+</body>
+
+</html>
